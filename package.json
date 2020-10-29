@@ -1,0 +1,19 @@
+{
+  "name": "playlistconv",
+  "version": "1.0.0",
+  "description": "allows for transfer of playlist to and from apple music and spotify",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Oei",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "node-fetch": "^2.6.1",
+    "spotify-web-api-node": "^5.0.0"
+  }
+}
